@@ -2,6 +2,10 @@
 
 This tool will help you to get a job interview by simply aligning your resume with the job Ad requirements. This tool uses Meta's famous Llama 2 large language model.
 
+![Add resume and the job](/screens/writer-form.PNG "Add resume and the job")
+![AI is generating resume](/screens/aliging-resume.PNG "AI is generating resume")
+![New resume](/screens/generated-resume.PNG "New resume")
+
 ## Run Locally
 
 ### 1. Download LlaMA 2 model from Hugging Face
