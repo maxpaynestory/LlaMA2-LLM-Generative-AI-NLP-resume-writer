@@ -45,8 +45,8 @@ def get_prompt(instruction, new_system_prompt=DEFAULT_SYSTEM_PROMPT):
     return prompt_template
 
 
-def resume_to_job(pdf_resume_path, job_ad_url, session, llm_chain):
-    jd = scrape_jd_from_url(job_ad_url)
+async def resume_to_job(pdf_resume_path, job_ad_url, session, llm_chain, browser_page):
+    jd = await scrape_jd_from_url(job_ad_url, browser_page)
     jd_file_path = os.path.join('sessions', session, 'jd.txt')
     with open(jd_file_path, "w", encoding="utf-8") as f:
         f.write(jd)

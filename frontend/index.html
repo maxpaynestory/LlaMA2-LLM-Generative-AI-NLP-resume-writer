@@ -61,7 +61,7 @@
                             <div className="form-group">
                                 <label for="job_ad_url">Job Ad URL</label>
                                 <input type="url" className="form-control" id="job_ad_url" aria-describedby="job_ad_url" placeholder="Enter job Ad URL" required onChange={e => setJobAdURL(e.target.value)} />
-                                <small id="job_ad_url" className="form-text text-muted">Place the job Ad link inside the textbox. it could be either from linkedin.com or join.com</small>
+                                <small id="job_ad_url" className="form-text text-muted">Place the job Ad link inside the textbox. it could be either from linkedin.com, join.com, indeed.com</small>
                             </div>
                             <div className="form-group">
                                 <label for="my_resume">Upload Your Resume</label>
@@ -85,7 +85,7 @@
                         <Modal.Header>
                             <Modal.Title>Please wait</Modal.Title>
                         </Modal.Header>
-                        <Modal.Body>AI is now customizing and aligning your resume. It can take upto 20 minutes depending on your cpu and RAM. <Spinner animation="border" /></Modal.Body>
+                        <Modal.Body>AI is now customizing and aligning your resume. It could take up to 20 minutes depending on your cpu and RAM. <Spinner animation="border" /></Modal.Body>
                     </Modal>
                 </div>
             );

@@ -8,3 +8,5 @@ langchain==0.0.321
 llama-cpp-python==0.2.11
 typing-extensions==4.8.0
 uvicorn==0.23.2
+pyppeteer==1.0.2
+pyppeteer-stealth==2.7.4
