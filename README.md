@@ -1,3 +1,4 @@
+**In the name of ALLAH, who has guided me to do this work**
 # LlaMA 2 7B LLM Generative AI NLP Professional resume writer
 
 This tool will help you to get a job interview by simply aligning your resume with the job Ad requirements. This tool uses Meta's famous Llama 2 large language model.
